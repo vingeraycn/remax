@@ -1,33 +1,22 @@
-# Remax One With TypeScript
-
-使用 Remax 开发跨平台小程序。
-
-## Getting Start
-
-安装依赖
+# Remax 模板
 
 ```bash
-npm install
-```
+# clone 模板
+git clone https://github.com/LeiHanCN/remax.git <your-project-name>
 
-调试项目
+# 进入到脚本路径下，初始化项目
+cd <your-project-name>/scripts
+chmod 777 init.sh
+./init.sh
 
-```bash
-# 选定要进行开发的平台，如 wechat，并调试
-$ npm run dev wechat
-or
+# 回到项目目录下
+cd ..
+
+# 安装依赖
+yarn
+# 开发微信小程序
 yarn dev wechat
+# 打包微信小程序
+yarn build wechat
+# 用微信小程序开发者工具进入dist/[target]目录，上传发布即可
 ```
-
-使用小程序开发者工具打开项目下的 `dist/[target]` 目录。
-
-## 构建
-
-```bash
-# 选定要构建的平台，如 wechat，并执行构建
-$ npm run build wechat
-or
-$ yarn build wechat
-```
-
-使用小程序开发者工具打开项目下的 `dist/[target]` 目录，上传代码即可。
