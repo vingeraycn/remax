@@ -12,8 +12,7 @@ export default () => {
           alt="logo"
         />
         <View className="text">
-          编辑 <Text className="path">src/pages/index/index.js</Text>{' '}
-          开始
+          编辑 <Text className="path">src/pages/index/index.js</Text> 开始
         </View>
       </View>
     </View>

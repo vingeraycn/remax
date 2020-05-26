@@ -1,5 +1,7 @@
 module.exports = {
-  plugins: [], 
+  plugins: [
+    'lodash'
+  ],
   presets: [
     [
       'remax',

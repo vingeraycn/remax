@@ -1,10 +1,10 @@
-const pages = ['pages/index/index'];
-const color = '#282c34';
-
 import { AppConfig as WechatAppConfig } from 'remax/wechat';
 import { AppConfig as AliAppConfig } from 'remax/ali';
 import { AppConfig as ToutiaoAppConfig } from 'remax/toutiao';
 import { AppConfig as WebAppConfig } from 'remax/web';
+
+const pages = ['pages/index/index'];
+const color = '#282c34';
 
 export const wechat: WechatAppConfig = {
   pages,
