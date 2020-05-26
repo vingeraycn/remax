@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { View, Text, Image } from 'remax/one';
-import styles from './index.css';
+import styles from './index.styl';
 
 export default () => {
   return (

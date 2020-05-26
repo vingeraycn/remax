@@ -1,5 +1,5 @@
 import * as React from 'react';
-import './app.css';
+import './app.styl';
 
 const App: React.FC = props => props.children as React.ReactElement;
 
