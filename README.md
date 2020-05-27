@@ -1,5 +1,9 @@
 # Remax 模板
 
+### 特征点
+`RemaxJS` `Typescript` `React`  `Stylus` `useSwr` `ECharts`
+`模板`
+
 ### 开始使用
 
 ```bash
