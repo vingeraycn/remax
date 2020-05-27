@@ -1,7 +1,7 @@
 # Remax 模板
 
 ### 特征点
-`RemaxJS` `Typescript` `React`  `Stylus` `SWR` `ECharts` `Lodash` `Babel`
+`RemaxJS` `Typescript` `React`  `Stylus` `SWR` `Lodash` `Babel`
 `模板`
 
 ### 开始使用
