@@ -1,11 +1,18 @@
 {
   "name": "remax",
-  "private": true,
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "keywords": [],
-  "author": "leihanchenzhou@outlook.com",
+  "keywords": [
+    "remax",
+    "miniapp",
+    "cross-platform",
+    "react",
+    "lodash",
+    "echarts",
+    "template"
+  ],
+  "author": "leihancn <leihanchenzhou@outlook.com>",
   "license": "MIT",
   "scripts": {
     "dev": "remax build -w -t",

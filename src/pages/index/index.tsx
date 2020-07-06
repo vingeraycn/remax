@@ -2,7 +2,7 @@ import * as React from 'react';
 import { View, Text, Image } from 'remax/one';
 import './index.styl';
 
-export default () => {
+export default (): JSX.Element => {
   return (
     <View className="app">
       <View className="header">
